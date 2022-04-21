@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "name": "minio",
+      "type": "com.winterchen.minio.configuration.MinioProperties",
+      "sourceType": "com.winterchen.minio.configuration.MinioProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "minio.access-key",
+      "type": "java.lang.String",
+      "description": "用户名",
+      "sourceType": "com.winterchen.minio.configuration.MinioProperties"
+    },
+    {
+      "name": "minio.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.winterchen.minio.configuration.MinioProperties"
+    },
+    {
+      "name": "minio.download-uri",
+      "type": "java.lang.String",
+      "sourceType": "com.winterchen.minio.configuration.MinioProperties"
+    },
+    {
+      "name": "minio.endpoint",
+      "type": "java.lang.String",
+      "description": "连接地址",
+      "sourceType": "com.winterchen.minio.configuration.MinioProperties"
+    },
+    {
+      "name": "minio.path",
+      "type": "java.lang.String",
+      "sourceType": "com.winterchen.minio.configuration.MinioProperties"
+    },
+    {
+      "name": "minio.secret-key",
+      "type": "java.lang.String",
+      "description": "密码",
+      "sourceType": "com.winterchen.minio.configuration.MinioProperties"
+    }
+  ],
+  "hints": []
+}

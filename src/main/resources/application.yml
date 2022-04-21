@@ -1,0 +1,23 @@
+server:
+  port: 8080
+spring:
+  http:
+    multipart:
+      max-file-size: 250Mb
+      max-request-size: 3000Mb
+  application:
+    name: monio-multipart
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+minio:
+  endpoint: http://121.41.196.178:9100
+  accessKey: cdh
+  secretKey: cdh.2580
+  bucketName: share
+  downloadUri: http://winterchen.com:9101
+  path: http://121.41.196.178:9100
+
+swagger:
+  enable: true

@@ -1,6 +1,7 @@
 
 ## 介绍
 springboot集成minio实现了分片上传功能
+vue版本的：[前端](https://github.com/WinterChenS/airportal-frontend) [后端](https://github.com/WinterChenS/airportal)
 
 ## 快速开始
 

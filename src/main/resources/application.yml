@@ -12,12 +12,12 @@ spring:
       matching-strategy: ant_path_matcher
 
 minio:
-  endpoint: http://121.41.196.178:9100
-  accessKey: cdh
-  secretKey: cdh.2580
+  endpoint: http://127.0.0.1:9100
+  accessKey: minioadmin
+  secretKey: minioadmin
   bucketName: share
-  downloadUri: http://winterchen.com:9101
-  path: http://121.41.196.178:9100
+  downloadUri: http://127.0.0.1:9101
+  path: http://127.0.0.1:9100
 
 swagger:
   enable: true
